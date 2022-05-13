@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Bellefair|Comfortaa|Satisfy|Slabo+27px|Vidaloka');
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.welcome {
+font-family: 'Bellefair', serif;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  padding: 50px 0 50px 0;
+}
+
+.welcome h2 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px   ;
+}
+
+td{
+  padding: 20px;
+}
+table{
+  width: 70%;
+}
+
+#container {
+	width: auto;
+	max-width: 300px;
+	height: auto;
+	overflow: hidden;
+  border-radius: 50%;
+
+	position: relative;
+/* 	z-index: 1; */
+
+
+}
+#container img {
+	width: 100%;
+	height: 90%;
+	margin-bottom: -5px;
+	transition: all 0.3s ease-out;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+#container:hover img {
+	transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+
+.box-text {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 3;
+	padding-top: 40%;
+    background-image: linear-gradient( 135deg, rgba(129, 255, 239, 0.50) 10%, rgba(240, 103, 180, 0.65) 100%);
+	opacity: 1;
+	transition: 0.3s linear;
+	color: #FFF;
+	font-family: 'Bellefair', serif;
+/* font-family: 'Slabo 27px', serif; */
+/* font-family: 'Vidaloka', serif; */
+	text-shadow: 2px 2px 2px #333;
+
+}
+.box-text h1 {
+  text-align: center;
+  font-weight: bold;
+	font-size: 200%;
+	font-family: 'Bellefair', serif;
+
+}
+.box-text:hover{opacity: 0;}

@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Bellefair|Comfortaa|Satisfy|Slabo+27px|Vidaloka');
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.welcome {
+font-family: 'Bellefair', serif;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  padding: 50px 0 50px 0;
+}
+
+.welcome h2 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 70px   ;
+}
+
+.welcome img{
+  position:absolute;
+right: 50px;
+}
+
+
+.categories{
+  padding: 20px;
+}
+
+/******1******/
+.container1{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+
+
+.image1 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #962d2d;
+}
+
+.container1:hover .overlay1 {
+  opacity: 0.7;
+}
+
+.text1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 2 ******/
+
+.container2{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image2 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container2:hover .overlay2 {
+  opacity: 0.7;
+}
+
+.text2 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 3 ******/
+
+.container3{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image3 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #346751;
+}
+
+.container3:hover .overlay3 {
+  opacity: 0.7;
+}
+
+.text3 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 4 ******/
+
+.container4{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image4 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5e454b;
+}
+
+.container4:hover .overlay4 {
+  opacity: 0.7;
+}
+
+.text4 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 5 ******/
+
+.container5{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image5 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5d549;
+}
+
+.container5:hover .overlay5 {
+  opacity: 0.8;
+}
+
+.text5 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 6 ******/
+
+.container6{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image6 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f54748;
+}
+
+.container6:hover .overlay6 {
+  opacity: 0.7;
+}
+
+.text6 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/**** 7******/
+
+.container7{
+  position: relative;
+  width: 1300px;
+  height: 300px;
+}
+
+.image7 {
+  display: block;
+  width: 1300px;
+  height: 300px;
+
+}
+
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 1300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fc5404;
+}
+
+.container7:hover .overlay7 {
+  opacity: 0.7;
+}
+
+.text7 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

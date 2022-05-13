@@ -1,0 +1,57 @@
+
+h1{
+  text-align:center;
+  color:#CF0000;
+  padding: 20px;
+}
+th{
+  font-size: 20px;
+  color : #E48900;
+}
+.list, .list.tr {
+  border: 5px  ;
+  border-style: solid;
+  border-color: #346751;
+  padding:20px;
+  margin: 20px;
+  background: radial-gradient(white, #9fe6a0);
+
+}
+h3{
+  background: radial-gradient(#B6C867,white);
+  width: 40%;
+}
+.text{
+  padding: 5px;
+font-size: 20px;
+width: 70%;
+}
+.mb-3{
+  width: 70%;
+}
+.header
+{
+  font-size: 25px;
+   color: #c84b31;
+}
+.popularity{
+  padding: 20px;
+  border-color:#a7c4bc;
+  border-style: solid;
+  font-size: 30px;
+  width: 60%;
+  margin: 100px;
+background: radial-gradient(#f4c7ab, #deedf0);
+}
+.text{
+  width: 70%;
+  font-size: 30px;
+  padding: 20px;
+}
+.market{
+  color: #3A6351;
+}
+.street{
+  text-decoration: underline;
+
+}

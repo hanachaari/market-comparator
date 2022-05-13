@@ -1,0 +1,27 @@
+.rank{
+  border-top: 10px;
+  border-bottom: 10px;
+  border-style: dotted;
+  border-color: #E4BAD4;
+  text-align: center;
+}
+.rank p{
+  font-family: Fantasy,Copperplate;
+  font-size: 25px;
+  text
+}
+.rank h1{
+  color: #125D98;
+}
+
+.graph{
+  padding: 30px 30px 0 30px;
+
+
+}
+.graph p{
+  text-align: center;
+  font-family: Fantasy,Copperplate;
+  font-size: 25px;
+
+}

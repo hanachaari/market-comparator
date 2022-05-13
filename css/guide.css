@@ -1,0 +1,53 @@
+
+
+.menu {
+font-family: 'Bellefair', serif;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 1px;
+  padding: 50px 0 50px 0;
+}
+
+.menu h1 {
+  font-size: 70px;
+  color:#FFC93C;
+}
+
+th{
+  text-align: center;
+  font-family:'Garamond' , serif;
+  font-size: 30px;
+  color: #99154E;
+
+}
+.list, .list.tr {
+  border: 5px  ;
+  border-style: solid;
+  border-color: #FFBBCC;
+  padding: 10px;
+  margin: 20px;
+  background: radial-gradient(white, #FFED99);
+
+
+}
+.list li{
+  font-family:'Garamond' , serif;
+  font-size: 25px;
+}
+h3{
+  background-color:  #c84b31;
+  width: 60%;
+}
+.text{
+  padding: 5px;
+font-size: 20px;
+width: 70%;
+}
+.mb-3{
+  width: 70%;
+}
+.header
+{
+  font-size: 25px;
+   color: #c84b31;
+}
